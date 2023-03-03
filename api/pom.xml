@@ -19,12 +19,16 @@
     <parent>
         <groupId>org.eclipse.microprofile.metrics</groupId>
         <artifactId>microprofile-metrics-parent</artifactId>
-        <version>5.0.1.payara-p1</version>
+        <version>5.0.0.payara-p1</version>
     </parent>
 
     <artifactId>microprofile-metrics-api</artifactId>
     <name>MicroProfile Metrics API</name>
     <description>MicroProfile Metrics :: API</description>
+
+    <properties>
+        <bnd.baseline.continue.on.error>true</bnd.baseline.continue.on.error>
+    </properties>
 
     <dependencies>
         <dependency>
