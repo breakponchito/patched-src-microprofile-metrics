@@ -19,23 +19,27 @@
     <parent>
         <groupId>org.eclipse.microprofile.metrics</groupId>
         <artifactId>microprofile-metrics-parent</artifactId>
-        <version>5.1.0</version>
+        <version>5.1.0.payara-p1</version>
     </parent>
 
     <artifactId>microprofile-metrics-api</artifactId>
     <name>MicroProfile Metrics API</name>
     <description>MicroProfile Metrics :: API</description>
 
+    <properties>
+        <bnd.baseline.continue.on.error>true</bnd.baseline.continue.on.error>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>jakarta.enterprise</groupId>
             <artifactId>jakarta.enterprise.cdi-api</artifactId>
         </dependency>
-        
+
         <dependency>
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.annotation.versioning</artifactId>
         </dependency>
     </dependencies>
-    
+
 </project>

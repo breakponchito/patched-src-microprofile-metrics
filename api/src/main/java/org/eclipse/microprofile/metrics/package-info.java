@@ -95,5 +95,5 @@
  * </code>
  * </pre>
  */
-@org.osgi.annotation.versioning.Version("5.1.0")
+@org.osgi.annotation.versioning.Version("5.1.0.payara-p1")
 package org.eclipse.microprofile.metrics;
